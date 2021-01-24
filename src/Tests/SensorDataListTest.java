@@ -5,6 +5,7 @@ import org.junit.Test;
 import sensorData.SensorData;
 import sensorData.SensorDataExchanger;
 import sensorData.SensorDataSender;
+import tcp.Client;
 import tcp.Connection;
 import tcp.TCPConnector;
 
@@ -26,7 +27,7 @@ public class SensorDataListTest {
     }
 
     @Test
-    void validTest1(){
-
+    void validTest1() throws IOException {
+        InputStream is = getInputStream();
     }
 }

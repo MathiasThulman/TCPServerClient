@@ -1,12 +1,21 @@
 package sensorData;
 
 public interface SensorData {
-    // returnss time stamp of measurement
+    /**
+     *
+     * @return timestamp of object
+     */
     long getTimeStamp();
 
-    //return value measured by sensor
+    /**
+     *
+     * @return value of the object
+     */
     float getValue();
 
-    //returns name of the Sensor
+    /**
+     *
+     * @return sensorname
+     */
     String getSensorName();
 }

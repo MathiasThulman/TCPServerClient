@@ -7,7 +7,7 @@ import java.io.OutputStream;
 public interface Connection {
     /**
      *
-     * @return output stream of created connection
+     * @return outputstream of created connection
      */
     OutputStream getOutPutStream() throws IOException;
 
