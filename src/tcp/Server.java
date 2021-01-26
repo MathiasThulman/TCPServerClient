@@ -5,7 +5,7 @@ import java.io.IOException;
 public interface Server {
     /**
      * accepts connections from clients
-     * @param port specofied port to listen on
+     * @param port specified port to listen on
      * @return returns connection ojbect
      * @throws IOException
      */

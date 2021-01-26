@@ -11,4 +11,5 @@ public interface Client {
      * @throws IOException on connection issues
      */
     Connection connect(String hostname, int port) throws IOException;
+
 }
